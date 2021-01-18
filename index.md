@@ -1,8 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Welcome"
 ---
 
-# road.camera
-
-Start developing your Jekyll website.
+Welcome to road.camera

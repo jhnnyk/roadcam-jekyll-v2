@@ -1,19 +1,26 @@
 $backgroundColor: #ffffff;
 $fontColor: #334155;
-$bodyFont: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $linkColor: #075985;
 $highlightColor: #db2777;
 
 body {
   background: $backgroundColor;
   color: $fontColor;
-  font-family: $bodyFont;
+  text-align: center;
 }
 
-h1 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: inherit;
+a {
+  color: $linkColor;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+header {
+  background: $linkColor;
+
+  a {
+    color: $highlightColor;
+  }
 }
