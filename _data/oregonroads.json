@@ -1,10 +1,5 @@
 {
-  "organization-information": {
-    "organization-id": "us.or..dot",
-    "organization-name": "ODOT",
-    "last-update-time": "2020-12-31T11:50:26.747Z"
-  },
-  "CCTVInventoryRequest": [
+  "data": [
     {
       "device-id": 277,
       "device-name": "AstoriaUS101MeglerBrNB",

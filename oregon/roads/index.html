@@ -3,3 +3,8 @@ layout: default
 ---
 
 <p><a href="/">Home</a> > <a href="/oregon">Oregon</a> > roads</p>
+
+{% capture route_slugs %} {% for cam in site.data.oregonroads.data %}
+{{cam.route-id | slugify}} {% endfor %} {% endcapture %} {% assign
+route_slugs_array = route_slugs | split: " " %} {{route_slugs_array | uniq |
+sort | join: ", "}}
